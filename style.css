@@ -70,14 +70,14 @@ body {
   div.gallery img {
     width: 100%;
     height: auto;
+    margin-left: -50px;
     
   }
 
   div.desc {
     color: #9E0059;
     padding: 15px;
-    /* text-align: center; */
-    margin-left: 100px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 
 
