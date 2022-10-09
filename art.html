@@ -9,6 +9,20 @@
       </style>
     <title>Art</title>
 <style>
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 div.gallery {
   border: 1px solid rgb(231, 108, 51);
 }
@@ -29,12 +43,6 @@ div.desc {
 
 * {
   box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -73,220 +81,217 @@ div.desc {
 
     <h1 id="trad">ARTWORKS</h1>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img/meunfinished.jpeg">
-      <img src="img/meunfinished.jpeg" width="600" height="400">
-    </a>
-    <div class="desc">2022 / oil paint on wood
-    </div>
-  </div>
-</div>
+    <div class="row">
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img/environment.jpeg">
-      <img src="img/environment.jpeg" width="600" height="400">
-    </a>
-    <div class="desc">2022 / oil paint on wood
-    </div>
-  </div>
-</div>
-    
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img/mewithbirds.jpeg">
-      <img src="img/mewithbirds.jpeg" width="600" height="400">
-    </a>
-    <div class="desc">2022 / gouache & colored pencil
-    </div>
-  </div>
-</div>
+      <!-- first column -->
+      <div class="column">
 
+        <!--  -->
+        <div class="gallery">
+          <a target="_blank" href="img/meunfinished.jpeg">
+            <img src="img/meunfinished.jpeg">
+          </a>
+          <div class="desc">2022 / oil paint on wood</div>
+        </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img/childhood.jpeg">
-      <img src="img/childhood.jpeg" width="600" height="400">
-    </a>
-    <div class="desc">2022 / colored pencil & watercolor</div>
-  </div>
-</div>
+        <!--  -->
+        <div class="gallery">
+          <a target="_blank" href="img/childhood.jpeg">
+            <img src="img/childhood.jpeg" width="600" height="400">
+          </a>
+          <div class="desc">2022 / colored pencil & watercolor</div>
+        </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img/searching for my own path.jpg">
-      <img src="img/searching for my own path.jpg" width="600" height="400">
-    </a>
-    <div class="desc">2021 / watercolor</div>
-  </div>
-</div>
+        <!--  -->
+        <div class="gallery">
+          <a target="_blank" href="img/fishcat.jpg">
+              <img src="img/fishcat.jpg" width="600" height="400">
+          </a>
+          <div class="desc">2022 / acrylic</div>
+      </div>
 
-<div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img/posterfish.jpg">
-        <img src="img/posterfish.jpg" width="600" height="400">
-      </a>
-      <div class="desc">2022 / paint pens & gouache</div>
-    </div>
-  </div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/fishcat.jpg">
-            <img src="img/fishcat.jpg" width="600" height="400">
-        </a>
-        <div class="desc">2022 / acrylic</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/fishcollage.jpeg">
-            <img src="img/fishcollage.jpeg" width="600" height="400">
-        </a>
-        <div class="desc">2022 / gouache & colored pencils</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/cardboardfish.jpg">
-            <img src="img/cardboardfish.jpg" width="600" height="400">
-        </a>
-        <div class="desc">2022 / acrylic</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
+      <!--  -->
+      <div class="gallery">
         <a target="_blank" href="img/newspaperfish.jpg">
             <img src="img/newspaperfish.jpg" width="600" height="400">
         </a>
         <div class="desc">2022 / acrylic</div>
     </div>
+
+    <!--  -->
+    <div class="gallery">
+      <a target="_blank" href="img/a moment of peace.jpg">
+          <img src="img/a moment of peace.jpg" width="600" height="400">
+      </a>
+      <div class="desc">2022 / charcoal</div>
+  </div>
+
+  <!--  -->
+  <div class="gallery">
+    <a target="_blank" href="img/surrounded.png">
+        <img src="img/surrounded.png" width="600" height="400">
+    </a>
+    <div class="desc">2021 / digital</div>
 </div>
 
-<div class="responsive">
-    <div class="gallery">
+<!--  -->
+
+<div class="gallery">
+  <a target="_blank" href="img/ed.gif">
+      <img src="img/ed.gif" width="600" height="400">
+  </a>
+  <div class="desc">2022 / digital</div>
+</div>
+  
+
+      </div>
+
+      <!-- second column -->
+      <div class="column">
+
+        <!--  -->
+        <div class="gallery">
+          <a target="_blank" href="img/environment.jpeg">
+            <img src="img/environment.jpeg">
+          </a>
+          <div class="desc">2022 / oil paint on wood</div>
+        </div>
+        
+        <!--  -->
+        <div class="gallery">
+          <a target="_blank" href="img/searching for my own path.jpg">
+            <img src="img/searching for my own path.jpg" width="600" height="400">
+          </a>
+          <div class="desc">2021 / watercolor</div>
+        </div>
+
+        <!--  -->
+        <div class="gallery">
+          <a target="_blank" href="img/fishcollage.jpeg">
+              <img src="img/fishcollage.jpeg" width="600" height="400">
+          </a>
+          <div class="desc">2022 / gouache & colored pencils</div>
+      </div>
+
+      <!--  -->
+      <div class="gallery">
         <a target="_blank" href="img/chonkygoldfish.jpg">
             <img src="img/chonkygoldfish.jpg" width="600" height="400">
         </a>
         <div class="desc">2022 / watercolor</div>
     </div>
-</div>
 
-<div class="responsive">
+    <!--  -->
+
     <div class="gallery">
-        <a target="_blank" href="img/orangefish.jpg">
-            <img src="img/orangefish.jpg" width="600" height="400">
-        </a>
-        <div class="desc">2022 / mix media</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/a moment of peace.jpg">
-            <img src="img/a moment of peace.jpg" width="600" height="400">
-        </a>
-        <div class="desc">2022 / charcoal</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/marilyn monroe.JPG">
-            <img src="img/marilyn monroe.JPG" width="600" height="400">
-        </a>
-        <div class="desc">2022 / charcoal</div>
-    </div>
-</div>
-
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/no end.png">
-            <img src="img/no end.png" width="600" height="400">
-        </a>
-        <div class="desc">2021 / digital</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/surrounded.png">
-            <img src="img/surrounded.png" width="600" height="400">
-        </a>
-        <div class="desc">2021 / digital</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/dazed.png">
-            <img src="img/dazed.png" width="600" height="400">
-        </a>
-        <div class="desc">2022 / digital</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/ed.gif">
-            <img src="img/ed.gif" width="600" height="400">
-        </a>
-        <div class="desc">2022 / digital</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/one summer's day.png">
-            <img src="img/one summer's day.png" width="600" height="400">
-        </a>
-        <div class="desc">2021 / digital</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img/i love me.png">
-            <img src="img/i love me.png" width="600" height="400">
-        </a>
-        <div class="desc">2021 / digital</div>
-    </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-      <a target="_blank" href="img/let music take you higher.png">
-          <img src="img/let music take you higher.png" width="600" height="400">
+      <a target="_blank" href="img/marilyn monroe.JPG">
+          <img src="img/marilyn monroe.JPG" width="600" height="400">
       </a>
-      <div class="desc">2021 / digital</div>
+      <div class="desc">2022 / charcoal</div>
   </div>
-</div>
 
+  <!--  -->
 
-<div class="responsive">
   <div class="gallery">
-      <a target="_blank" href="img/beauty and corruption.png">
-          <img src="img/beauty and corruption.png" width="600" height="400">
-      </a>
-      <div class="desc">2022 / digital</div>
-  </div>
+    <a target="_blank" href="img/one summer's day.png">
+        <img src="img/one summer's day.png" width="600" height="400">
+    </a>
+    <div class="desc">2021 / digital</div>
 </div>
 
+<!--  -->
+<div class="gallery">
+  <a target="_blank" href="img/i love me.png">
+      <img src="img/i love me.png" width="600" height="400">
+  </a>
+  <div class="desc">2021 / digital</div>
+</div>
 
-<div class="responsive">
+<!--  -->
+<div class="gallery">
+  <a target="_blank" href="img/time slows.png">
+      <img src="img/time slows.png" width="600" height="400">
+  </a>
+  <div class="desc">2022 / digital</div>
+</div>
+
+      </div>
+
+
+      <!-- third column -->
+      <div class="column">
+
+        <!--  -->
+        <div class="gallery">
+          <a target="_blank" href="img/mewithbirds.jpeg">
+            <img src="img/mewithbirds.jpeg" width="600" height="400">
+          </a>
+          <div class="desc">2022 / gouache & colored pencil
+          </div>
+      </div>
+
+      <!--  -->
+      <div class="gallery">
+        <a target="_blank" href="img/posterfish.jpg">
+          <img src="img/posterfish.jpg" width="600" height="400">
+        </a>
+        <div class="desc">2022 / paint pens & gouache</div>
+      </div>
+
+      <!--  -->
+      <div class="gallery">
+        <a target="_blank" href="img/cardboardfish.jpg">
+            <img src="img/cardboardfish.jpg" width="600" height="400">
+        </a>
+        <div class="desc">2022 / acrylic</div>
+    </div>
+
+    <!--  -->
+
+    <div class="gallery">
+      <a target="_blank" href="img/orangefish.jpg">
+          <img src="img/orangefish.jpg" width="600" height="400">
+      </a>
+      <div class="desc">2022 / mix media</div>
+  </div>
+
+  <!--  -->
   <div class="gallery">
-      <a target="_blank" href="img/time slows.png">
-          <img src="img/time slows.png" width="600" height="400">
-      </a>
-      <div class="desc">2022 / digital</div>
-  </div>
+    <a target="_blank" href="img/no end.png">
+        <img src="img/no end.png" width="600" height="400">
+    </a>
+    <div class="desc">2021 / digital</div>
 </div>
+
+<!--  -->
+
+<div class="gallery">
+  <a target="_blank" href="img/dazed.png">
+      <img src="img/dazed.png" width="600" height="400">
+  </a>
+  <div class="desc">2022 / digital</div>
+</div>
+
+<!--  -->
+<div class="gallery">
+  <a target="_blank" href="img/let music take you higher.png">
+      <img src="img/let music take you higher.png" width="600" height="400">
+  </a>
+  <div class="desc">2021 / digital</div>
+</div>
+
+<!--  -->
+<div class="gallery">
+  <a target="_blank" href="img/beauty and corruption.png">
+      <img src="img/beauty and corruption.png" width="600" height="400">
+  </a>
+  <div class="desc">2022 / digital</div>
+</div>
+
+
+    </div>
+   
+    
 
 <div class="clearfix"></div>
 
@@ -295,7 +300,3 @@ div.desc {
 </html>
 
 
-
-
-</body>
-</html>
